@@ -1,0 +1,180 @@
+.page1{
+    background-color:white;
+    width:100vw;
+    height: 300vh;
+    border-style:block;
+    border-radius: 2px;
+    padding-left: 10px;
+
+}
+.page2{
+     background-color: rgba(245, 245, 245, 0.808);
+    width: 450px;
+    height: 203px;
+    border-style:block;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 9px;
+    
+
+
+
+}
+.page2>.but{
+    background-color: rgba(0, 136, 255, 0.84);
+    width:35%;
+    height: 20%;
+    border-style:block;
+    border-radius: 19px;
+    margin: auto;
+}
+img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+    
+    
+
+
+
+.page3{
+     background-color: whitesmoke;
+    width: 450px;
+    height: 100px;
+    border-style:solid;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border-color: none;
+
+
+
+
+}
+.mon1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+     
+    width:54%;
+    height: 90%;
+    border-radius: 5px;
+
+}
+.mon2{
+       display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+     
+    width:54%;
+    height: 90%;
+    border-radius: 5px;
+}
+.mon3{
+      display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+     
+    width:54%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+.mon1>span,.mon2>span,.mon3>span{
+    font-weight: 100px;
+    font-size: x-small;
+}
+.page4{
+     background-color: rgba(245, 245, 245, 0.808);
+    width: 450px;
+    height: 700px;
+    border-style:block;
+    border-radius: 5px;
+    margin: auto;   
+}
+.page4>p{
+    font-size: x-small;
+}
+.page5{
+     background-color:rgb(241, 241, 241); 
+    width: 350px;
+    height: 190px;
+    border-style:block;
+    border-radius: 5px;
+    margin: auto;
+
+}
+.page6{
+    background-color:rgb(241, 241, 241); 
+    width: 350px;
+    height: 190px;
+    border-style:block;
+    border-radius: 7px;
+    margin: auto;
+    
+}
+.er{
+    width: 100vw;
+    height: 40vh;
+    background-image: url(./image-hero-desktop.jpg);
+
+}
+
+.xer{
+    width: 100%;
+    height: 30%;
+    background-color:rgb(241, 241, 241);
+    border-style: none;
+    border-radius: 2px;
+    border-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+.first{
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+    border: none;
+   
+}
+
+
+
+
+
+
+
+
+    
+
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

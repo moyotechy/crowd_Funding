@@ -1,0 +1,43 @@
+.page{
+    background-color: white;
+    border-style: block;
+    width:100vw ;
+    height: 300vh;
+    border-width: 2px;
+    
+}
+.pledge{
+    background-color:  rgba(241, 241, 241, 0.377);
+    border-style: block;
+     width:450px;
+    height: 600px;
+    
+    border-width: 2px;
+    margin: auto;
+    padding-bottom: 10px;
+
+}
+.with{
+    background-color:  rgba(245, 245, 245, 0.808);
+    border-style: block;
+     width: 400px;
+    height: 150px;
+    border-radius: 6px;
+
+    border-width: 2px;
+    margin: auto;
+    margin-bottom: 4px;
+
+}
+.stand{
+    background-color:  rgba(245, 245, 245, 0.808);
+    border-style: block;
+     width: 400px;
+    height: 150px;
+    border-radius: 6px;
+
+    border-width: 2px;
+    margin: auto;
+
+}
+
