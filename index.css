@@ -1,180 +1,72 @@
-.page1{
+.bigg {
     background-color:white;
-    width:100vw;
-    height: 300vh;
-    border-style:block;
-    border-radius: 2px;
-    padding-left: 10px;
-
-}
-.page2{
-     background-color: rgba(245, 245, 245, 0.808);
-    width: 450px;
-    height: 203px;
-    border-style:block;
-    border-radius: 5px;
+    height: 90%;
+    width: 1000px;
+    border-width: 2px;
+    border-style: solid;
     margin: auto;
-    margin-bottom: 9px;
+    border-color: whitesmoke;
+    border-radius: 10px;
     
-
-
 
 }
-.page2>.but{
-    background-color: rgba(0, 136, 255, 0.84);
-    width:35%;
-    height: 20%;
-    border-style:block;
-    border-radius: 19px;
-    margin: auto;
-}
-img{
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
+
+.sma {
     
-    
-}
-
-    
-    
-
-
-
-.page3{
-     background-color: whitesmoke;
-    width: 450px;
-    height: 100px;
-    border-style:solid;
-    border-radius: 5px;
-    margin: auto;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    border-color: none;
-
-
-
-
-}
-.mon1{
     display: flex;
     flex-direction: column;
+    background-color: white;
     justify-content: flex-start;
-     
-    width:54%;
-    height: 90%;
-    border-radius: 5px;
-
-}
-.mon2{
-       display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-     
-    width:54%;
-    height: 90%;
-    border-radius: 5px;
-}
-.mon3{
-      display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-     
-    width:54%;
-    height: 90%;
-    border-radius: 5px;
-}
-
-.mon1>span,.mon2>span,.mon3>span{
-    font-weight: 100px;
-    font-size: x-small;
-}
-.page4{
-     background-color: rgba(245, 245, 245, 0.808);
-    width: 450px;
-    height: 700px;
-    border-style:block;
-    border-radius: 5px;
-    margin: auto;   
-}
-.page4>p{
-    font-size: x-small;
-}
-.page5{
-     background-color:rgb(241, 241, 241); 
-    width: 350px;
-    height: 190px;
-    border-style:block;
-    border-radius: 5px;
+    align-items: flex-start;
+    height: 60%;
+    width: 800px;
+    border-width: 2px;
+    border-style: solid;
     margin: auto;
+    padding-left: 40px;
+   
+    border: none;
+    margin-top: 50px;
 
 }
-.page6{
-    background-color:rgb(241, 241, 241); 
-    width: 350px;
-    height: 190px;
-    border-style:block;
-    border-radius: 7px;
-    margin: auto;
-    
+.first-r input{
+    width: 60%;
+    height: 20px;
 }
-.er{
-    width: 100vw;
-    height: 40vh;
-    background-image: url(./image-hero-desktop.jpg);
+.first-r {
+    display: flex;
+    width: 800px;
+    height: 60%;
+    /* background-color: purple; */
+}
+
+.first-r>div {
+
+    width: 50%;
+    height: 90%;
+    margin-right: 20px;
 
 }
 
-.xer{
+.l {
+
+    margin-right: 40px;
+}
+
+.below-f {
     width: 100%;
     height: 30%;
-    background-color:rgb(241, 241, 241);
-    border-style: none;
-    border-radius: 2px;
-    border-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    
-    
 }
-.first{
-    background-color: hsl(176, 50%, 47%);
-    border-radius: 7px;
-    width: 150px;
-    height: 30px;
+
+a>button {
+    width: 90%;
+    margin: auto;
+    height: 35px;
+    background-color: gold;
+    /* margin-left:228px; */
     border: none;
-   
+    color:white;
+     font-size: x-large;
+     font-family:'Times New Roman', Times, serif;
+     margin-top: 10px;
 }
-
-
-
-
-
-
-
-
-    
-
-    
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
