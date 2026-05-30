@@ -1,74 +1,172 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <title>Master</title>
-    <link rel="stylesheet" href="master.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Crowdfunding Project</title>
+
+<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div class="er">
-    </div>
-    <div class="page1">
-        <div class="img2">
 
-        </div>
-        <div class="page2">
-            <h3>Mastercraft Bamboo Monitor Riser</h3>
-            <h5>A beautiful & handcrafted monitorcstand to reduce neck and eye strain </h5>
+<!-- HERO -->
+<header class="hero">
 
-            <div class="xer">
-              <a href="./master2.html"> <button class="first">Back this project</button> </a>
-                <img src="./icon-bookmark.svg" alt="">
-            </div>
+<nav>
+<div class="logo">Crowdfund</div>
 
+<ul>
+<li><a href="#">About</a></li>
+<li><a href="#">Discover</a></li>
+<li><a href="#">Get Started</a></li>
+</ul>
 
-        </div>
-        <div class="page3">
-            <div class="mon1">
-               <h3> #90,000</h3>  
-              <span>of #100,000 backed</span> 
-            </div>
-            <div class="mon2">
-               <h3>5,007 </h3> 
-               <span>total backers</span> 
-            </div>
+</nav>
 
-            <div class="mon3">
-                <h3>56</h3>
-              <span>days left</span>  
-
-            </div>
-        </div>
-        <div class="page4">
-            <h3>About this project</h3>
-          <p>The Mastercraft Bamboo Monitor Riser is a sturdy and platform that elevates
-            your screen to a more comfortable viewing height. Placing your monitor at eye level has
-            the potential to improve your posture and make you more comfortable while at work,
-            helping you stay focused on the task at hand.</p>
-
-            <p>Feature artisan craftsmanship,the simplicity of design creates extra desk space below
-            your computer to allow notepads, pens,and USB sticks to be stored under the stand.</p> 
-            <div class="page5">
-                <h4>Bamboo stand</h4>
-                <h5>You get an ergonomic stand made of nautral bamboo. You've helped us lunch
-                    our promotional campaign, and you will be added to a special Barcker member list.
-                </h5>
-                <h2>101</h2>left
-            </div><br>
-            <div class="page6">
-                <H4>Black Edition Stand</H4>
-                <h5>You get two Special Edition Mahogany stands, a Backer T-Shit, and a personal
-                    thanks you. You will be added to our Backer member list. Shipping is included
-                </h5>
-                <h5>64 left</h5>
-
-            </div>
+</header>
 
 
+<!-- MAIN CARD -->
+<section class="main-container">
+
+<div class="project-card">
+
+<div class="logo-circle">M</div>
+
+<h1>Mastercraft Bamboo Monitor Riser</h1>
+
+<p>
+A beautifully handcrafted monitor stand to improve posture and workspace comfort.
+</p>
+
+<div class="project-actions">
+
+<button class="back-btn">Back this project</button>
+
+<button class="bookmark-btn">Bookmark</button>
+
+</div>
+
+</div>
+
+</section>
 
 
+<!-- STATS -->
+<section class="stats-container">
 
-        </div>
+<div class="stats">
 
-    </div>
+<div>
+<h2>$89,914</h2>
+<p>of $100,000 backed</p>
+</div>
+
+<div>
+<h2>5,007</h2>
+<p>total backers</p>
+</div>
+
+<div>
+<h2>56</h2>
+<p>days left</p>
+</div>
+
+</div>
+
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section class="about">
+
+<h2>About this project</h2>
+
+<p>
+The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen.
+It improves posture and reduces neck and eye strain.
+</p>
+
+</section>
+
+
+<!-- REWARDS -->
+<section class="rewards">
+
+<div class="reward-card">
+
+<h3>Bamboo Stand</h3>
+
+<p>Pledge $25 or more</p>
+
+<p>
+You get an ergonomic stand made of natural bamboo.
+</p>
+
+<button>Select Reward</button>
+
+</div>
+
+
+<div class="reward-card">
+
+<h3>Black Edition Stand</h3>
+
+<p>Pledge $75 or more</p>
+
+<p>
+Black special edition stand with limited stock.
+</p>
+
+<button>Select Reward</button>
+
+</div>
+
+</section>
+<!-- BACK PROJECT MODAL -->
+<div id="modal" class="modal">
+
+<div class="modal-content">
+
+<h2>Back this project</h2>
+<button onclick="openModal()" class="back-btn">
+Back this project
+</button>
+
+<p>Select a reward tier</p>
+
+<div class="tiers">
+
+<button onclick="selectTier(10)">Supporter — $10</button>
+<button onclick="selectTier(25)">Backer — $25</button>
+<button onclick="selectTier(75)">Premium — $75</button>
+<button onclick="selectTier(100)">VIP — $100</button>
+
+</div>
+
+<div class="custom">
+
+<input type="number" id="customAmount" placeholder="Or enter custom amount">
+
+</div>
+
+<button class="confirm" onclick="confirmBack()">
+Confirm Support
+</button>
+
+<button class="close" onclick="closeModal()">
+Close
+</button>
+
+</div>
+
+</div>
+
+
 </body>
+</html>
